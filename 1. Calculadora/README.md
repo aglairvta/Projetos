@@ -4,7 +4,7 @@
 ### Demo:
 
 <p align="center">
-  <img src="/assets/demo/Calc.gif" alt="Demo" />
+  <img src="/1. Calculadora/assets/demo/Calc.gif" />
 </p>
 
 <p align="center">
