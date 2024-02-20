@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #dad7d0;
+}
+
+main {
+  margin: 2rem;
+}
+
+input:focus {
+    outline: none;
+  }
+
+h1 {
+    font-family: "Anta", sans-serif;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem
+}
+
+
+#checkListContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.container .label {
+  font-size: 15px;
+  padding-left: 10px;
+  transition: 0.3s;
+  pointer-events: none;
+  margin-top: -2rem;
+}
+
+.item {
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      gap: 8px;
+      cursor: pointer; 
+  }
+  
+  .item label {
+    text-decoration: none; 
+    max-width: 180px;
+    word-wrap: break-word;
+  }
+  
+  .item input[type="checkbox"]:checked + label {
+    text-decoration: line-through; /* efeito riscado */
+  }  
+
+  /* margin após adicionar nota*/
+  .item:not(:first-child) {
+    margin-top: 30px;
+  }
+
+.input {
+    width: 200px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 0px 7px;
+    border-radius: 6px;
+    color: #000000;
+    font-size: 15px;
+    background-color: transparent;
+    box-shadow: 3px 3px 10px rgba(0,0,0,1),
+                -1px -1px 6px rgba(0, 0, 0, 0.4);
+}
+
+.input:focus {
+    border: 2px solid transparent;
+    color: #000000;
+    box-shadow: 3px 3px 10px rgba(0,0,0,1),
+                -1px -1px 6px rgba(0, 0, 0, 0.4),
+                inset 3px 3px 10px rgba(0,0,0,1),
+                inset -1px -1px 6px rgba(0, 0, 0, 0.4);
+}
+
+.container .input:valid ~ .label,
+.container .input:focus ~ .label {
+    transition: 0.3s;
+    padding-left: 2px;
+    transform: translateY(-35px);
+}
+
+.container .input:valid,
+.container .input:focus {
+    box-shadow: 3px 3px 10px rgba(0,0,0,1),
+                -1px -1px 6px rgba(0, 0, 0, 0.4),
+                inset 3px 3px 10px rgba(0,0,0,1),
+                inset -1px -1px 6px rgba(0, 0, 0, 0.4);
+}
+
+#menuItems {
+  list-style-type: none;
+  padding-left: 10px;
+  margin: 0;
+  display: none;
+}
+
+label[contenteditable="true"] {
+  outline: none;
+}
+
+.editButton,
+.deleteButton {
+  background-color:#DAD7D0;
+  border-radius: 0.1rem;
+  border: none;
+  cursor: pointer;
+}
