@@ -83,7 +83,7 @@ main {
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
-    margin-right: 10px;
+    margin-right: 20px;
   }
   
     .buttons-container button {
@@ -100,7 +100,7 @@ main {
     font-size: 38px;
     margin-top: -280px;
     padding: 6rem;
-    padding-left: 5rem;
+    padding-left: 5.1rem;
   }
 }
 
