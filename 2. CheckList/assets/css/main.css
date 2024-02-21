@@ -8,6 +8,7 @@
 
 body {
   background-color: #dad7d0;
+  white-space: nowrap;
 }
 
 main {
