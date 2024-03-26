@@ -1,4 +1,4 @@
-# Qual o meu IMC? 🤔
+# Qual meu IMC? 🤔
 <p>Calculadora IMC simples feita com HTML, CSS e JavaScript.</p>
 
 ### Demo:
