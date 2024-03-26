@@ -16,11 +16,10 @@
         //status imc
         const statusImc =  
                imc < 18.5 ? 'Abaixo do peso':   
-               (imc > 18.5 && imc < 24.9) ? 'Peso ideal!':
-               (imc > 24.9 && imc < 29.9) ? 'Acima do peso':
-               (imc > 29.9 && imc < 34.9) ? 'Obesidade grau I':
-               (imc > 34.9 && imc < 39.9) ? 'Obesidade grau II':
-               imc >39.9 ? 'Obesidade grau III':
+               (imc >= 18.5 && imc <= 24.9) ? 'Peso ideal!':
+               (imc >= 25 && imc <= 29.9) ? 'Sobrepeso':
+               (imc >= 30 && imc <= 39.9) ? 'Obesidade':
+                imc >=40 ? 'Obesidade grave': 
                'Erro';
 
         pessoas.push({
@@ -41,3 +40,4 @@
 })();
 
 
+    

@@ -17,6 +17,10 @@ h1 {
     font-size: 1.8rem;
 }
 
+.form input::placeholder {
+    color: #dcccc1; 
+}
+
 body {
     background-image: url('/assets/img/bkg.svg');
     font-family: "Anta", sans-serif;
