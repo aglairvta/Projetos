@@ -1,5 +1,5 @@
 ## Crie senhas seguras 🔒
-<p>Gerador de senhas aleatórias com HTML, CSS e JavaScript. 🎲 </p> 
+<p>Gerador de senhas fortes com HTML, CSS e JavaScript. 🎲 </p> 
 
 ### Demo:
 
