@@ -79,11 +79,22 @@ h1 {
 }
 
 .newDiv {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 10px; 
+    margin-bottom: 8px; 
+  }
+  
+  .newDiv p {
+    flex: 1; 
+    margin: 0; 
+  }
+  
+  .newDiv button,
+  .newDiv img {
+    flex-shrink: 0; 
+  }
 
 /* Responsividade */
 @media (max-width: 500px) {
