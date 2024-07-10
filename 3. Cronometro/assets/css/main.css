@@ -10,11 +10,22 @@ body {
   font-weight: 100;
   font-style: normal;
 }
+.switch {
+  margin: 0.5rem 1rem;
+  position: fixed;
+  cursor: pointer;
+}
+.escuro {
+  display: block;
+}
+.claro {
+  display: none;
+}
 .container {
   border: solid;
   border-radius: 1rem;
   max-width: 300px;
-  margin: 0.7rem auto;
+  margin: 0.8rem auto;
   padding: 1rem;
 }
 img {
@@ -36,4 +47,3 @@ img {
     margin-left: -5rem;
   }
 }
-
