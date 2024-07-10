@@ -1,14 +1,14 @@
 #  #3 Cronometro  ⏱️
-<p>Cronômetro simples utilizando HTML, CSS e JavaScript.</p>
+<p>Gerencie seu tempo de forma fácil, com uma interface limpa e bonita.</p>
 
 ### Demo:
 
 <p align="center">
-  <img src="assets/demo/Cronometro.gif" alt="Checklist" />
+  <img src="assets/demo/demo.svg" alt="Checklist" />
 </p>
 
 <p align="center">
- Veja no ar: <a href="https://cronometrova.netlify.app/">Demo</a>
+ Veja no ar: <a href="https://seucronometro.netlify.app/">Demo</a>
 </p>
 
 <p align="center">
