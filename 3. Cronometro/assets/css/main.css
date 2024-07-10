@@ -35,10 +35,12 @@ img {
   img {
     width: 320px;
   }
-
   .container {
     max-width: 250px;
     margin: 4rem auto;
+  }
+  .switch {
+    margin-top: -40px;
   }
 }
 @media(max-width: 378px) {
