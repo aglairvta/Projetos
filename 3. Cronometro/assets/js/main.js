@@ -78,11 +78,17 @@ const iniciar = () => {
         }
         hour.textContent = `${zeroAEsquerda(horas)}:${zeroAEsquerda(minutos)}:${zeroAEsquerda(segundos)}`
         updateHourColor();
+        start.style.backgroundColor = 'green';
+        pause.style.backgroundColor = '#fff';
+        reset.style.backgroundColor = '#fff';
     }, 1000)
 }
 const pausar = () => {
     clearInterval(intervalo);
     hour.style.color = 'red';
+    pause.style.backgroundColor = 'red';
+    start.style.backgroundColor = '#fff';
+    reset.style.backgroundColor = '$fff';
 }
 const zerar =  () => {
     clearInterval(intervalo);
@@ -91,6 +97,9 @@ const zerar =  () => {
     minutos = 0;
     segundos = 0;
     updateHourColor();
+    reset.style.backgroundColor = 'yellow';
+    start.style.backgroundColor = '#fff';
+    pause.style.backgroundColor = '#fff';
 }
 document.addEventListener('DOMContentLoaded', () => {
     updateHourColor(); 
