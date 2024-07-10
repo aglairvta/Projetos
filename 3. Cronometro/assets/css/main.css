@@ -37,10 +37,13 @@ img {
   }
   .container {
     max-width: 250px;
-    margin: 4rem auto;
+    margin: 10rem auto;
   }
   .switch {
     margin-top: -40px;
+  }
+  body {
+    overflow-y: hidden;
   }
 }
 @media(max-width: 378px) {
