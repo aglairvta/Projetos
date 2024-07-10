@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a5bc7e;
+}
+
+.container {
+  border: solid;
+  border-radius: 1rem;
+  max-width: 300px;
+  margin: 0.7rem auto;
+  padding: 1rem;
+}
+
+img {
+  width: 400px;
+}
+
+@media(max-width: 500px) {
+  img {
+    width: 320px;
+  }
+
+  .container {
+    max-width: 250px;
+    margin: 4rem auto;
+  }
+}
+
+@media(max-width: 378px) {
+  img {
+    width: 250px;
+    margin-left: -5rem;
+  }
+}
+
