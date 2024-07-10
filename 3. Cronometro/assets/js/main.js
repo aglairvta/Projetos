@@ -39,6 +39,25 @@ start.style.borderRadius = '0.3rem';
 pause.style.borderRadius = '0.3rem';
 reset.style.borderRadius = '0.3rem';
 
+//switch
+const claro = document.querySelector('.claro');
+const escuro = document.querySelector('.escuro');
+const h1 = document.querySelector('h1');
+escuro.addEventListener('click', () => {
+   escuro.style.display = 'none';
+   claro.style.display = 'block'
+   document.body.style.backgroundColor = '#202020';
+   container.style.backgroundColor = '#000';
+   updateHourColor();
+})
+claro.addEventListener('click', () => {
+claro.style.display = 'none';
+escuro.style.display = 'block';
+document.body.style.backgroundColor = '#a5bc7e';
+container.style.backgroundColor = '#a5bc7e';
+updateHourColor();
+})
+
 //lógica
 const zeroAEsquerda = (hora) => hora < 10 ? `0${hora}` : hora;
 let intervalo;
@@ -58,18 +77,12 @@ const iniciar = () => {
             horas = 0;
         }
         hour.textContent = `${zeroAEsquerda(horas)}:${zeroAEsquerda(minutos)}:${zeroAEsquerda(segundos)}`
-        start.style.backgroundColor = 'green';
-        pause.style.backgroundColor = '#fff';
-        reset.style.backgroundColor = '#fff';
-        hour.style.color = '#000';
+        updateHourColor();
     }, 1000)
 }
 const pausar = () => {
     clearInterval(intervalo);
     hour.style.color = 'red';
-    start.style.backgroundColor = '#fff';
-    pause.style.backgroundColor = 'red';
-    reset.style.backgroundColor = '#fff';
 }
 const zerar =  () => {
     clearInterval(intervalo);
@@ -77,11 +90,21 @@ const zerar =  () => {
     horas = 0;
     minutos = 0;
     segundos = 0;
-    start.style.backgroundColor = '#fff';
-    pause.style.backgroundColor = '#fff';
-    reset.style.backgroundColor = 'yellow';
-    hour.style.color = '#000';
+    updateHourColor();
 }
+document.addEventListener('DOMContentLoaded', () => {
+    updateHourColor(); 
+});
+const updateHourColor = () => {
+    const bodyBackgroundColor = window.getComputedStyle(document.body).backgroundColor.toLowerCase();
+    if (bodyBackgroundColor === 'rgb(165, 188, 126)' || bodyBackgroundColor === '#a5bc7e') {
+        hour.style.color = '#000'; 
+        h1.style.color = '#000';
+    } else {
+        hour.style.color = '#fff';
+        h1.style.color = '#fff';
+    }
+};
 start.addEventListener('click', iniciar);
 pause.addEventListener('click', pausar);
 reset.addEventListener('click', zerar);
