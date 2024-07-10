@@ -1,0 +1,29 @@
+{
+  "name": "cronometro",
+  "version": "1.0.0",
+  "description": "<p>Gerencie seu tempo de forma fácil, com uma interface limpa e bonita.</p>",
+  "main": "main.js",
+  "scripts": {
+    "main": "main.js",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "seucronometro.netlify.app",
+    "productName": "cronometro",
+    "linux": {
+      "target": "appimage"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.2.0",
+    "electron-builder": "^24.13.3"
+  }
+}
