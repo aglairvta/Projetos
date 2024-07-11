@@ -111,7 +111,7 @@ main {
 }
 
 /*responsividade*/
-@media (min-width: 300px) {
+@media (min-width: 200px) {
     h1 {font-size: 1.5rem;}
     main {margin: 5rem;}
     .calculadora {padding: 0.5rem;}
