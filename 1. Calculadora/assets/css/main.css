@@ -11,7 +11,7 @@ h1 {
 }
 body {
     white-space: nowrap;
-    background-image: radial-gradient(circle, #c4b4c8, #d3bdc7, #dbc7c9, #e0d3cf, #e3deda);
+    background-color: #c4b4c8;
 }
 .calculadora {
     border: solid black;
@@ -96,6 +96,18 @@ main {
     background-color: #E29644;
     border-radius: 0.5rem;
     border: solid;
+}
+.switch {
+    position: fixed;
+    margin: -4rem 1rem;
+}
+.escuro {
+    display: block;
+    cursor: pointer;
+}
+.claro {
+    display: none;
+    cursor: pointer;
 }
 
 /*responsividade*/
