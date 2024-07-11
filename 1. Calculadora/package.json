@@ -1,0 +1,28 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "<p>Realize cálculos matemáticos de forma simples e eficiente.</p>",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "suacalculadora.netlify.app",
+    "productName": "Calculadora",
+    "linux": {
+      "target": "appimage"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.2.0",
+    "electron-builder": "^24.13.3"
+  }
+}
