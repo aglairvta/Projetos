@@ -20,9 +20,9 @@
 </p>
 
 ## Experimente:
-**Web** <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#c4b4c8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg> [Clique aqui pra acessar o site](https://suacalculadora.netlify.app)
+**Web** ↪ [Clique aqui pra acessar o site](https://suacalculadora.netlify.app)
 
-**Linux** <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#c4b4c8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg> [Clique aqui pra baixar em releases](https://github.com/aglairvta/Projetos/releases/tag/Calculadora) 
+**Linux** ↪ [Clique aqui pra baixar em releases](https://github.com/aglairvta/Projetos/releases/tag/Calculadora) 
 
 - Baixe o ***Calculadora-1.0.0.AppImage*** em [releases](https://github.com/aglairvta/Projetos/releases/tag/Calculadora);
 - Acesse o diretório onde foi baixado;
@@ -30,16 +30,24 @@
 <hr>
 
 ## Compilação:
-**Pré-requisitos** <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#c4b4c8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg> nodejs, npm instalados.
+**Pré-requisitos** ↪ nodejs, npm instalados.
 
-- Clone o repositório <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#c4b4c8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg> ```git clone https://github.com/aglairvta/Projetos.git```
-- Acesse o diretório <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#c4b4c8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg> ```cd Projetos/1.\ Calculadora/```
-- Baixe as dependências <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#c4b4c8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg> ```npm install```
+- Clone o repositório ↪ ```git clone https://github.com/aglairvta/Projetos.git```
+- Acesse o diretório ↪ ```cd Projetos/1.\ Calculadora/```
+- Baixe as dependências ↪ ```npm install```
 <hr>
 
 **Execute:**
 
-**Web** <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#c4b4c8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg> ```npm start```
+**Web** ↪ ```npm start```
 
-**Linux** <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#c4b4c8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg> ```npm run dist```
+**Linux** ↪ ```npm run dist```
 <hr>
+
+## Créditos:
+
+- [Emojis](https://emojidb.org/set-emojis)
+- [Icons](https://iconsvg.xyz/)
+- [Github icon](https://tholman.com/github-corners/)
+<hr>
+
