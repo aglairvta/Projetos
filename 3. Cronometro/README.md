@@ -20,9 +20,9 @@
 </p>
 
 ## Experimente:
-**Web** <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#ff6600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg> [Acesse o site clicando aqui](https://seucronometro.netlify.app/)
+**Web** ↪ [Acesse o site clicando aqui](https://seucronometro.netlify.app/)
 
-**Linux** <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#ff6600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg> [Acesse o releases clicando aqui](https://github.com/aglairvta/Projetos/releases/tag/Cronometro)
+**Linux** ↪ [Acesse o releases clicando aqui](https://github.com/aglairvta/Projetos/releases/tag/Cronometro)
 - Faça download de Cronometro-1.0.0.AppImage em [releases](https://github.com/aglairvta/Projetos/releases/tag/Cronometro);
 - Acesse o diretório onde está o .AppImage;
 - Dê permissão de execução: ```sudo chmod +x Cronometro-1.0.0.AppImage ```
@@ -30,17 +30,23 @@
 
 ## Compilação:
 
-**Pré-requisitos** <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#ff6600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg> Noje.js e npm instalados.
+**Pré-requisitos** ↪ Noje.js e npm instalados.
 
-**Clone o repositório** <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#ff6600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg> ```git clone https://github.com/aglairvta/Projetos.git``` 
+**Clone o repositório** ↪ ```git clone https://github.com/aglairvta/Projetos.git``` 
 
-***Acese o diretório*** <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#ff6600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg> ```cd Projetos/3.\ Cronometro/```
+***Acese o diretório*** ↪ ```cd Projetos/3.\ Cronometro/```
 
-***Instale as dependências*** <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#ff6600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg> ```npm install```
+***Instale as dependências*** ↪ ```npm install```
 
 ### Execute:
 
-Web <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#ff6600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg> ```npm start```
+Web ↪ ```npm start```
 
-Linux <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#ff6600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg> ```npm run dist```
+Linux ↪ ```npm run dist```
 <hr>
+
+## Créditos
+
+- [Imagem principal](https://www.drawkit.com/illustrations/jane-illustrations)
+- [Icons](https://iconsvg.xyz/)
+- [Github icon](https://tholman.com/github-corners/)
