@@ -34,3 +34,20 @@ function calcular () {
     if (resultado) {document.getElementById('resultado').innerHTML = eval(resultado)}
     else {document.getElementById('resultado').innerHTML = '';};
 };
+
+const escuro = document.querySelector('.escuro');
+const claro = document.querySelector('.claro');
+const h1 = document.querySelector('.h1');
+const body = document.body.style;
+escuro.addEventListener('click', () => {
+    escuro.style.display = 'none';
+    claro.style.display = 'block';
+    body.backgroundColor = '#000';
+    h1.style.color = '#fff';
+});
+claro.addEventListener('click', () => {
+    claro.style.display = 'none';
+    escuro.style.display = 'block';
+    body.backgroundColor = '#c4b4c8';
+    h1.style.color = '#000';  
+});
