@@ -56,11 +56,12 @@ main {
     background-color: grey;
     height: 3rem;
     width: 24.2rem;
-    font-size: 2.3rem;
+    font-size: 1rem;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     margin-bottom: 0.40rem;
+    padding-right: 0.3rem;
 }
 .color1 {
     background-color: #B04F1F;
