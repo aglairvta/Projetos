@@ -1,78 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
   background-color: #dad7d0;
   white-space: nowrap;
 }
-
-main {
-  margin: 2rem;
+section {
+  margin: 1rem;
 }
-
-input:focus {
-    outline: none;
-  }
-
 h1 {
     font-family: "Anta", sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1.5rem
 }
-
-
-#checkListContainer {
-    display: flex;
-    flex-direction: column;
-}
-
-.container {
+.divInput {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
   width: 200px;
 }
-
-.container .label {
+.divInput .label {
   font-size: 15px;
   padding-left: 10px;
   transition: 0.3s;
   pointer-events: none;
   margin-top: -2rem;
 }
-
-.item {
-      display: flex;
-      justify-content: center;
-      align-items: center; 
-      gap: 8px;
-      cursor: pointer; 
-  }
-  
-  .item label {
-    text-decoration: none; 
-    max-width: 180px;
-    word-wrap: break-word;
-  }
-  
-  .item input[type="checkbox"]:checked + label {
-    text-decoration: line-through; /* efeito riscado */
-  }  
-
-  /* margin após adicionar nota*/
-  .item:not(:first-child) {
-    margin-top: 30px;
-  }
-
 .input {
     width: 200px;
     height: 45px;
@@ -86,7 +46,6 @@ h1 {
     box-shadow: 3px 3px 10px rgba(0,0,0,1),
                 -1px -1px 6px rgba(0, 0, 0, 0.4);
 }
-
 .input:focus {
     border: 2px solid transparent;
     color: #000000;
@@ -95,37 +54,9 @@ h1 {
                 inset 3px 3px 10px rgba(0,0,0,1),
                 inset -1px -1px 6px rgba(0, 0, 0, 0.4);
 }
-
-.container .input:valid ~ .label,
-.container .input:focus ~ .label {
+.divInput .input:valid ~ .label,
+.divInput .input:focus ~ .label {
     transition: 0.3s;
     padding-left: 2px;
     transform: translateY(-35px);
-}
-
-.container .input:valid,
-.container .input:focus {
-    box-shadow: 3px 3px 10px rgba(0,0,0,1),
-                -1px -1px 6px rgba(0, 0, 0, 0.4),
-                inset 3px 3px 10px rgba(0,0,0,1),
-                inset -1px -1px 6px rgba(0, 0, 0, 0.4);
-}
-
-#menuItems {
-  list-style-type: none;
-  padding-left: 10px;
-  margin: 0;
-  display: none;
-}
-
-label[contenteditable="true"] {
-  outline: none;
-}
-
-.editButton,
-.deleteButton {
-  background-color:#DAD7D0;
-  border-radius: 0.1rem;
-  border: none;
-  cursor: pointer;
 }
