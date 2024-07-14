@@ -6,7 +6,7 @@
 ### Demo:
 
 <p align="center">
-  <img src="assets/demo/demo.svg" alt="Checklist"/>
+  <img src="assets/demo/demo.gif" alt="Checklist"/>
 </p>
 
 <p align="center">
