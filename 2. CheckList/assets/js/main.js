@@ -1,6 +1,6 @@
-const container = document.querySelector('.container');
 //divLista,checkbox,p,buttons
 function criarDivLista(){
+    const container = document.querySelector('.container');
     const newDivLista = document.createElement('div');
     const styleDl = newDivLista.style;
     styleDl.display = 'flex';
