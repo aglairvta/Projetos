@@ -92,13 +92,10 @@ function editarTarefa(e){
     const btnEditar = e.target;
     const divLista = btnEditar.parentElement;
     const p = divLista.querySelector('p');
-
     const textarea = document.createElement('textarea');
     textarea.style.width = '300px';
     textarea.value = p.textContent;
-
     divLista.replaceChild(textarea, p);
-
     textarea.addEventListener('keydown', (e) => {
         if (e.key === 'Enter') {
             e.preventDefault();
@@ -108,8 +105,6 @@ function editarTarefa(e){
             }
         }
     })
-
-   
     textarea.addEventListener('blur', (e) => {
         if (textarea.value !== '') {
             divLista.replaceChild(p, textarea);
