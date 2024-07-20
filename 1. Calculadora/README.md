@@ -1,7 +1,7 @@
 # Calculadora 🔢
-<p>Realize cálculos matemáticos de forma simples e eficiente.</p>
+Realize cálculos matemáticos de forma simples e eficiente.
 
-<p>Disponível na Web e no Linux.</p>
+**Disponível na Web e no Linux.**
 
 ### Demo:
 
@@ -50,4 +50,3 @@
 - [Icons](https://iconsvg.xyz/)
 - [Github icon](https://tholman.com/github-corners/)
 <hr>
-
