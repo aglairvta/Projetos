@@ -1,11 +1,9 @@
 document.getElementById('limpar').addEventListener('click', clean);
 document.getElementById('voltar').addEventListener('click', back);
-
 document.getElementById('dividir').addEventListener('click', () => insert('/'));
 document.getElementById('multiplicar').addEventListener('click', () => insert('*'));
 document.getElementById('subtrair').addEventListener('click', () => insert('-'));
 document.getElementById('somar').addEventListener('click', () => insert('+'));
-
 document.getElementById('zero').addEventListener('click', () => insert('0'));
 document.getElementById('um').addEventListener('click', () => insert('1'));
 document.getElementById('dois').addEventListener('click', () => insert('2'));
@@ -16,10 +14,8 @@ document.getElementById('seis').addEventListener('click', () => insert('6'));
 document.getElementById('sete').addEventListener('click', () => insert('7'));
 document.getElementById('oito').addEventListener('click', () => insert('8'));
 document.getElementById('nove').addEventListener('click', () => insert('9'));
-
 document.getElementById('ponto').addEventListener('click', () => insert('.'));
 document.getElementById('calcular').addEventListener('click', calcular);
-
 function insert (num) {
     let numero = document.getElementById('resultado').innerHTML;
     document.getElementById('resultado').innerHTML = numero + num;
@@ -34,7 +30,6 @@ function calcular () {
     if (resultado) {document.getElementById('resultado').innerHTML = eval(resultado)}
     else {document.getElementById('resultado').innerHTML = '';};
 };
-
 const escuro = document.querySelector('.escuro');
 const claro = document.querySelector('.claro');
 const h1 = document.querySelector('.h1');
