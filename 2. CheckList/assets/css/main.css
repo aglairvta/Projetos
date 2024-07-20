@@ -15,7 +15,7 @@ section {
 }
 h1 {
     font-family: "Playwrite PE", cursive;
-    font-size: 3.3rem;
+    font-size: 3rem;
     display: flex;
     text-align: center;
     align-items: center;
@@ -62,4 +62,9 @@ h1 {
     transition: 0.3s;
     padding-left: 2px;
     transform: translateY(-35px);
+}
+@media(max-width:397px){
+  h1 {
+    font-size: 2rem;
+  }
 }
