@@ -3,7 +3,9 @@
 → Calcule seu índice de massa corporal (IMC) para avaliar seu estado de saúde atual.
 
 ### Demo:
-![Demo Calculadora IMC](/assets/demo/demo.gif)
+<p align="center">
+  <img src="assets/demo/demo.gif" alt="Calculadora-IMC"/>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
