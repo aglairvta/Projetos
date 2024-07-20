@@ -1,7 +1,7 @@
 #  #3 Cronometro  ⏰
-<p>Gerencie seu tempo de forma fácil, com uma interface limpa e bonita.</p>
+Gerencie seu tempo de forma fácil, com uma interface limpa e bonita.
 
-<p> Disponível na Web e Linux.</p>
+***Disponível na Web e Linux.***
 
 ### Demo:
 
