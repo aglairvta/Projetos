@@ -1,14 +1,18 @@
 const container = document.querySelector('.container');
 const hour = document.createElement('span');
 const textHour = document.createTextNode('00:00:00');
+hour.setAttribute('title', 'Tempo');
 hour.appendChild(textHour);
 container.appendChild(hour);
 const start = document.createElement('button');
+start.setAttribute('title', 'Iniciar');
 const pause = document.createElement('button');
+pause.setAttribute('title', 'Pausar');
 const reset = document.createElement('button');
 const textStart = document.createTextNode('Iniciar');
 const textPause = document.createTextNode('Pausar');
 const textReset = document.createTextNode('Resetar');
+reset.setAttribute('title', 'Resetar');
 start.appendChild(textStart);
 pause.appendChild(textPause);
 reset.appendChild(textReset);
@@ -17,7 +21,6 @@ divButton.appendChild(start);
 divButton.appendChild(pause);
 divButton.appendChild(reset);
 container.appendChild(divButton);
-
 //style
 container.style.padding = '1rem'
 container.style.textAlign = 'center'
@@ -38,7 +41,6 @@ reset.style.padding = '0.5rem';
 start.style.borderRadius = '0.3rem';
 pause.style.borderRadius = '0.3rem';
 reset.style.borderRadius = '0.3rem';
-
 //switch
 const claro = document.querySelector('.claro');
 const escuro = document.querySelector('.escuro');
@@ -57,7 +59,6 @@ document.body.style.backgroundColor = '#a5bc7e';
 container.style.backgroundColor = '#a5bc7e';
 updateHourColor();
 })
-
 //lógica
 const zeroAEsquerda = (hora) => hora < 10 ? `0${hora}` : hora;
 let intervalo;
