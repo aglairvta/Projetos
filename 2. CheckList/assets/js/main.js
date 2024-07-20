@@ -95,6 +95,7 @@ function editarTarefa(e){
     const textarea = document.createElement('textarea');
     textarea.style.width = '300px';
     textarea.value = p.textContent;
+    textarea.style.width = '100%'
     divLista.replaceChild(textarea, p);
     textarea.addEventListener('keydown', (e) => {
         if (e.key === 'Enter') {
