@@ -1,10 +1,9 @@
 const numeroControl = document.getElementById('numeroControl');
 const valueControl = document.getElementById('valueControl');
-
+const copiar = document.querySelector('.copiar');
 numeroControl.addEventListener('input', () => {
     valueControl.innerText = numeroControl.value;
 });
-
 function gerarSenha(comprimento) {
     const caracteres = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+{}|[]\\;\',./<>?:';
     let senha = '';
@@ -14,37 +13,30 @@ function gerarSenha(comprimento) {
     }
     return senha;
 }
-
 function copiarSenha() {
     resultadoInput.select();
     document.execCommand('copy');
     mostrarMensagemCopiada();
 }
-
 function mostrarMensagemCopiada() {
     const mensagem = document.createElement('span');
     mensagem.textContent = 'Senha copiada.';
-    mensagem.classList.add('copied-message');
-    resultadoInput.parentNode.appendChild(mensagem);
+    mensagem.style.fontWeight = 'bolder';
+    copiar.appendChild(mensagem);
     setTimeout(() => {
         mensagem.remove();
     }, 500);
 }
-
 const resultadoInput = document.getElementById('resultados');
 const gerarBtn = document.getElementById('gerar-novos-resultados');
-
 numeroControl.addEventListener('input', () => {
     valueControl.innerText = numeroControl.value;
 });
-
 resultadoInput.addEventListener('click', copiarSenha);
-
 gerarBtn.addEventListener('click', () => {
     const comprimento = parseInt(numeroControl.value);
     const novaSenha = gerarSenha(comprimento);
     resultadoInput.value = novaSenha;
 });
-
 const comprimentoInicial = parseInt(numeroControl.value);
 resultadoInput.value = gerarSenha(comprimentoInicial);
