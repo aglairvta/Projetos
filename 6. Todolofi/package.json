@@ -1,6 +1,6 @@
 {
   "name": "todolofi",
-  "version": "2.0",
+  "version": "2.0.0",
   "description": "Todolist com player de músicas lofi.",
   "main": "main.js",
   "scripts": {
