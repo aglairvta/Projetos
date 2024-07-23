@@ -1,43 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
-
 body {
     margin: 0.5rem;
     padding: 1rem;
+    font-family: "Anta", sans-serif;
 }
-
 .container {
    max-width: 300px;
    margin: 0 auto;
    padding: 1rem;
    border-radius: 1rem;
    overflow: hidden;
-   -webkit-box-shadow: 0px 3px 7px 10px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 3px 7px 10px rgba(0,0,0,0.75);
-    box-shadow: 0px 3px 7px 10px rgba(0,0,0,0.75);
-}
+   background-color: #c0c0c0;
+   -webkit-box-shadow: -9px -6px 0px 3px rgba(0,0,0,1);
+   -moz-box-shadow: -9px -6px 0px 3px rgba(0,0,0,1);
+   box-shadow: -9px -6px 0px 3px rgba(0,0,0,1);
 
+}
 h1 {
     text-align: center;
     font-size: 1.5rem;
-    font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-
 .add-task {
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-bottom: 1rem;
 }
-
 .input-add {
     padding: 0.4.rem;
     border-radius: 0.4rem;
     border: none;
-    border: solid 1px;
+    border: solid 2px;
 }
-
 .tasks-add {
     padding: 0.5rem;
     border: none;
@@ -45,31 +41,12 @@ h1 {
     background-color: black;
     color: white;
 }
-
 .tasks-add:hover {
     background-color: rgb(51, 50, 50);
 }
-
-.player-h1 {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-}
-
-#playButton {
-    padding: 0;
-    height: 2rem;
-    width: 2rem;
-    cursor: pointer;
-    border: none;
-    border-radius: 1rem;
-}
-
 .icon-principal {
     text-align: center;
 }
-
 .icon-principal img  {
   width: 60%;
   max-width: 100%; 
@@ -77,37 +54,52 @@ h1 {
   display: block; 
   margin: 0 auto;
 }
-
 .newDiv {
     display: flex;
     align-items: center; 
     justify-content: center;
     gap: 10px; 
     margin-bottom: 8px; 
-  }
-  
-  .newDiv p {
+}
+.newDiv p {
     flex: 1; 
     margin: 0; 
-  }
-  
-  .newDiv button,
-  .newDiv img {
+}
+.newDiv button,
+.newDiv img {
     flex-shrink: 0; 
-  }
-
+}
+.player-controls {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+.player-controls button {
+     cursor: pointer;
+     border: none;
+     padding: 0.4rem;
+     border-radius: 1rem;
+}
+#currentSong {
+     font-size: 0.6rem;
+     margin: 0.8rem;
+     text-align: center;
+}
+#pauseButton {
+     display: none;
+}
 /* Responsividade */
 @media (max-width: 500px) {
   .container {
       padding: 0.5rem;
   }
-
   .add-task {
       flex-direction: column;
       align-items: center;
   }
-
   .add-task input {
       max-width: 100%; 
+      padding: 0.5rem;
   }
 }
