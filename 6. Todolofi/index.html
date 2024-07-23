@@ -27,19 +27,24 @@
     <main class="container">
         <div class="icon-principal">
             <img src="https://blush.design/api/download?shareUri=b_knjDX0M&w=800&h=800&fm=png"
-                alt="imagem-garota-com-livro" title="Imagem ilustrativa principal">
+                alt="Imagem ilustrativa principal" title="Imagem ilustrativa principal">
         </div>
-        <div class="player-h1">
-            <button id="playButton"><img src="/assets/imgs/play.svg" alt="player-music" title="Aperte o play"></button>
-            <audio id="audioPlayer" src="/assets/sounds/musicas.mp3"></audio alt="player-music">
-            <h1 class="h1" title="Título">Todolofi</h1>
+        <audio id="audioPlayer">
+            <!--Músicas adicionadas com js-->
+        </audio>
+        <div class="player-controls">
+            <button id="prevButton" title="Anterior"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 19 2 12 11 5 11 19"></polygon><polygon points="22 19 13 12 22 5 22 19"></polygon></svg></button>
+            <button id="playButton" title="Play"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg></button>
+            <button id="pauseButton" title="Pausar"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="10" y1="15" x2="10" y2="9"></line><line x1="14" y1="15" x2="14" y2="9"></line></svg></button>
+            <button id="nextButton" title="Próximo"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 19 22 12 13 5 13 19"></polygon><polygon points="2 19 11 12 2 5 2 19"></polygon></svg></button>
         </div>
+        <div id="currentSong" class="current-song" title="nome da música"></div>
         <div class="add-task">
             <input class="input-add" type="text" placeholder="Estudar sql" title="Escreva uma tarefa">
             <button class="tasks-add" title="Adicione a tarefa">Adicionar</button>
         </div>
         <div class="tasks">
-            <!--As tasks vem aqui-->
+            <!--As tasks são adicionadas com js-->
         </div>
     </main>
 </body>
