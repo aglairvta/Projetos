@@ -5,7 +5,6 @@ const inputAdd = document.querySelector('.input-add');
 function addTask() {
     const inputValue = inputAdd.value.trim();
     if (inputValue === '') {
-        alert('O campo não pode estar vazio.');
         return;
     }
     const newInputCheckbox = createCheckbox();
