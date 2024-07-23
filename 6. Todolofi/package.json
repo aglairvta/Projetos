@@ -1,0 +1,16 @@
+{
+  "name": "todolofi",
+  "version": "2.0",
+  "description": "Todolist com player de músicas lofi.",
+  "main": "main.js",
+  "scripts": {
+    "main": "main.js",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.2.1"
+  }
+}
