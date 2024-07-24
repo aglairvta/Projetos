@@ -1,0 +1,85 @@
+.contato {
+    border: solid 1px;
+    border-radius: 1rem 5rem;
+    max-width: 600px;
+    margin: 10rem auto;
+    gap: 2rem;
+    padding: 1rem;
+    -webkit-box-shadow: -15px 22px 0px -2px rgba(0,0,0,1);
+    -moz-box-shadow: -15px 22px 0px -2px rgba(0,0,0,1);
+    box-shadow: -15px 22px 0px -2px rgba(0,0,0,1);
+    flex-wrap: wrap;
+}
+.contato svg {
+    border: double #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #fff;
+}
+.linkedin:hover {
+    color: #78b5db;
+    border: none;
+    cursor: pointer;
+}
+.github:hover {
+    color: #c692df;
+    border: none;
+    cursor: pointer;
+}
+.email:hover {
+    color: #d88882;
+    border: none;
+    cursor: pointer;
+}
+.sections {
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+body {
+    background-color: #202020;
+}
+header {
+    background-color: #fff;
+}
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1020%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(32%2c 32%2c 32%2c 1)'%3e%3c/rect%3e%3cpath d='M -1363.8155718642383%2c259 C -1219.82%2c294.2 -931.82%2c446 -643.8155718642383%2c435 C -355.82%2c424 -211.82%2c196.6 76.18442813576166%2c204 C 364.18%2c211.4 523.42%2c479.6 796.1844281357617%2c472 C 1068.95%2c464.4 1311.24%2c227.2 1440%2c166' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -380.2232006408841%2c121 C -236.22%2c189 51.78%2c462.6 339.7767993591159%2c461 C 627.78%2c459.4 771.78%2c149 1059.776799359116%2c113 C 1347.78%2c77 1703.73%2c260.6 1779.776799359116%2c281 C 1855.82%2c301.4 1507.96%2c228.2 1440%2c215' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1020'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+.contatoA {
+    font-weight: bold;
+}
+/*Responsividade*/
+@media(max-width:950px) {
+    .sections {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+     }
+     .sections div {
+         border: solid;
+         width: 20px;
+         height: 20px;
+         border-radius: 1rem;
+         cursor: pointer;
+     }
+     .home {
+        background-color: #202020;
+     }
+
+     .contatoA {
+        background-color: #421c66;
+        border-radius: 1rem;
+     }
+}
+@media(max-width:642px) {
+    .contato {
+       margin: 3rem;
+    }
+}
+@media(max-width:315px) {
+    .contato {
+        padding: 2rem;
+    }
+}
