@@ -6,7 +6,7 @@ aprendendo.
  ### Demo:
 
 <p align="center">
-  <img src="/assets/demo/demo.gif" alt="Portfólio" />
+  <img src="assets/demo/demo.gif" alt="Portfólio" />
 </p>
 
 <p align="center">
