@@ -1,3 +1,4 @@
+
 .carousel {
     max-width: 400px;
     margin: 4rem auto;
@@ -10,11 +11,7 @@
     box-shadow: 14px -12px 0px -5px rgba(3,10,15,1);
 }
 body {
-    background-color: rgb(203, 218, 219);   
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1361' height='767' preserveAspectRatio='none' viewBox='0 0 1361 767'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1039%26quot%3b)' fill='none'%3e%3crect width='1361' height='767' x='0' y='0' fill='rgba(203%2c 218%2c 219%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c514.132C99.087%2c509.349%2c208.483%2c505.151%2c281.448%2c437.942C352.219%2c372.754%2c348.216%2c263.346%2c373.156%2c170.415C393.778%2c93.571%2c430.966%2c18.276%2c414.99%2c-59.667C399.393%2c-135.762%2c337.582%2c-189.739%2c287.214%2c-248.873C236.396%2c-308.535%2c186.015%2c-365.377%2c119.414%2c-406.685C33.795%2c-459.789%2c-57.204%2c-552.362%2c-153.302%2c-522.097C-249.849%2c-491.69%2c-250.817%2c-351.029%2c-312.394%2c-270.691C-368.794%2c-197.108%2c-465.718%2c-158.386%2c-498.538%2c-71.679C-534.76%2c24.016%2c-537.08%2c133.096%2c-501.552%2c229.051C-464.765%2c328.407%2c-391.577%2c413.627%2c-299.468%2c465.981C-209.753%2c516.975%2c-103.075%2c519.107%2c0%2c514.132' fill='%2399b7b9'%3e%3c/path%3e%3cpath d='M1361 1136.487C1432.048 1138.188 1495.203 1103.9479999999999 1562.066 1079.864 1649.3899999999999 1048.41 1762.7 1051.366 1813.312 973.564 1863.5529999999999 896.333 1836.097 790.357 1807.339 702.826 1781.3899999999999 623.844 1720.165 565.3340000000001 1660.254 507.695 1605.182 454.711 1544.929 410.599 1474.007 382.133 1397.113 351.27 1316.134 321.553 1234.71 336.894 1149.493 352.949 1075.979 405.398 1016.35 468.359 954.877 533.267 896.8779999999999 610.246 891.3240000000001 699.471 885.896 786.675 935.131 867.527 987.1320000000001 937.74 1032.228 998.629 1099.125 1034.815 1166.029 1070.3809999999999 1227.876 1103.259 1290.977 1134.81 1361 1136.487' fill='%23fdfefe'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1039'%3e%3crect width='1361' height='767' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
-}
-header {
-    background-color: #fff;
 }
 .projetos {
     font-weight: bold;
@@ -47,12 +44,13 @@ header {
         display: flex;
         gap: 3rem;
         margin-top: 2rem;
-        margin-bottom: 1rem;    
+        margin-bottom: 1rem;   
+        margin-left: 3rem; 
      }
      .sections div {
          border: solid;
-         width: 20px;
-         height: 20px;
+         width: 30px;
+         height: 30px;
          border-radius: 1rem;
          cursor: pointer;
          color: #fff;
