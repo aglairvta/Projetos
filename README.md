@@ -36,4 +36,10 @@
 
 ➜ [Repositório](https://github.com/aglairvta/Projetos/tree/main/6.%20Todolofi)
 <hr>
+
+<h4>7. Portfólio</h4>
+<img src='./7.%20Portfólio/assets/demo/demo.gif' alt='Portfólio' style="width: 300px;"></img>
+
+➜ [Repositório](https://github.com/aglairvta/Projetos/tree/main/7.%20Portf%C3%B3lio)
+<hr>
 </div>
