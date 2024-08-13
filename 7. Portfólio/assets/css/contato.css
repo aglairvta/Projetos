@@ -55,7 +55,6 @@ body {
         display: flex;
     }
     .contato {
-        margin: 1rem;
         max-width: 200px;
         margin: 0 auto;
     }
@@ -64,5 +63,8 @@ body {
     }
     .sc {
         background-color: rgb(10, 10, 14);
+    }
+    body {
+        margin: 2rem;
     }
 }
