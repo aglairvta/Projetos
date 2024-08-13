@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+nav {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Anta", sans-serif;
+}
+figure img {
+    width: 270px;
+}
+.main-home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+span, .inicio {
+    color: #d9d9d9;
+}
+.inicio {
+    border-bottom: double #000;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Gagalin';
+    src: url('/assets/font/Gagalin-Regular.otf') format('opentype'); 
+}
+h1 {
+    font-style: italic;
+    font-family: "Anta", sans-serif;
+}
+h2 {
+    font-family: 'Gagalin';
+    margin-top: -1rem;
+}
+body {
+    background: linear-gradient(90deg, #8c52ff, #5ce1e6);
+}
+.sections {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    display: none;
+}
+.sections a {
+    border-radius: 1rem;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    border: solid 1px;
+}
+.sh {
+    background-color: #5edce7;
+}
+@media(max-width:350px) {
+    figure img {
+        width: 220px;
+    }
+    main {
+        margin-top: 5rem;
+    }
+}
+@media(max-width:500px) {
+    header {
+        display: none;
+    }
+    .sections {
+        display: flex;
+    }
+}
