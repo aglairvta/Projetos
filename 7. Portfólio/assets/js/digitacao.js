@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    new TypeIt(".titulo", {
+    new TypeIt(".profissao", {
       speed: 60,
       loop: false,
       cursor: false
