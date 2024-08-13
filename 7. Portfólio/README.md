@@ -6,7 +6,7 @@ aprendendo.
  ### Demo:
 
 <p align="center">
-  <img src="assets/demo/demo.gif" alt="Portfólio" />
+  <img src="assets/demo/demo.png" alt="Portfólio" />
 </p>
 
 <p align="center">
@@ -24,9 +24,9 @@ Créditos: 🌟
 
 ☆ [Github Corners](https://tholman.com/github-corners/)
 
-☆ [Ilustração home](https://www.drawkit.com/)
+☆ [Ilustração Home](https://www.drawkit.com/)
 
-☆ [Fontes](https://fonts.google.com/)
+☆ [Google Fontes](https://fonts.google.com/), [Gagalin](https://www.dafontfree.co/download/gagalin/)
 
 ☆ [Ícones](https://iconsvg.xyz/)
 ***
